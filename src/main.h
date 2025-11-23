@@ -12,10 +12,10 @@
 
 // SINGLE VERSION
 // byte startPinLamp = 22;
-// byte startPinBright = 2; // 198 ~ 24 QuantumBoard 0.30 ~ 2.70
+// byte startPinBright = 2; 
 
 byte startPinLamp = 2;
-byte startPinBright = 22; // 198 ~ 24 QuantumBoard 0.30 ~ 2.70
+byte startPinBright = 22; 
 
 byte keyPin[] = {32, 34, 36, 38, 40, 42, 44, 46};
 
@@ -26,7 +26,7 @@ byte keyPin[] = {32, 34, 36, 38, 40, 42, 44, 46};
 // String lightColor[] = {"QB"};
 
 /*!
-     CREE Ultraviolet FarRed Red Blue
+     White Ultraviolet FarRed Red Blue
  */
 
 String WavelengthSMD[lampAmount] = {
